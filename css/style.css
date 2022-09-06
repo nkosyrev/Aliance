@@ -248,9 +248,13 @@ body {
     background-position: center 0;
   }
 }
-@media (max-width: 1530px) {
-  .navbar {
+@media (max-width: 1510px) {
+  html {
     font-size: 12px;
-    justify-content: space-around;
+  }
+}
+@media (max-width: 1290px) {
+  html {
+    font-size: 10px;
   }
 }
