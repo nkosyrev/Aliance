@@ -1,3 +1,3 @@
-# html-starter
-Стартовый шаблон для верстки очередного проекта
+# Aliance Production
+Проект компании Aliance Production
 ### Автор: Николай Косырев
