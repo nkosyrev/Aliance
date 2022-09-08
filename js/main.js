@@ -26,8 +26,8 @@ const closeMenu = (event) => {
   menu.classList.remove("is-open"); // убирает класс is-open
   mMenuToggle.classList.remove("close-menu");
   document.body.style.overflow = ""; // возвращает прокрутку сайта под меню
-  lightModeOff();
-}
+  this.scrollY < 1 ? lightModeOff() : lightModeOn();
+};
 
 window.addEventListener('scroll', () => {
   this.scrollY > 1 ? lightModeOn() : lightModeOff();
