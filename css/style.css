@@ -176,7 +176,7 @@ body {
 }
 .slider-button-prev,
 .slider-button-next {
-  height: 100%; /*от slider-buttons родителя*/
+  height: 100%; 
   flex-basis: 50%;
   border: 1px solid rgba(235, 235, 240, 0.2);
   display: flex;
@@ -238,7 +238,8 @@ body {
 }
 .steps {
   display: flex;
-  min-height: 12.5rem;
+/*   min-height: 12.5rem; */
+  height: auto;
   list-style: none;
   padding: 0;
   gap: 1.875rem;

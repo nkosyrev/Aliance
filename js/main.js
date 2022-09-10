@@ -51,24 +51,27 @@ const swiper = new Swiper('.swiper', {
     // when window width is >= 576px
     576: {
       slidesPerView: 2,
+      allowTouchMove: true,
     },
     // when window width is >= 768px
     768: {
       slidesPerView: 3,
+      allowTouchMove: true,
     },
     // when window width is >= 1024px
     1024: {
       slidesPerView: 4,
+      allowTouchMove: true,
     },
     // when window width is >= 1200px
     1200: {
       slidesPerView: 5,
+      allowTouchMove: false,
     },
   },
 });
 const sectionSwiper = new Swiper('.section-swiper', {
   speed: 400,
-  autoHeight: true,
   slidesPerView: 1,
   navigation: {
     nextEl: '.section-slider-button-next',
@@ -78,18 +81,26 @@ const sectionSwiper = new Swiper('.section-swiper', {
     // when window width is >= 576px
     576: {
       slidesPerView: 2,
+      allowTouchMove: true,
+      centeredSlides: true,
     },
     // when window width is >= 768px
     768: {
       slidesPerView: 3,
+      allowTouchMove: true,
+      centeredSlides: true,
     },
     // when window width is >= 1024px
     1024: {
       slidesPerView: 4,
+      allowTouchMove: true,
+      centeredSlides: true,
     },
     // when window width is >= 1200px
     1200: {
       slidesPerView: 5,
+      allowTouchMove: false,
+      centeredSlides: true,
     },
   },
 });
