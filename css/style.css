@@ -37,6 +37,7 @@ body {
   background-color: #fff;
   color: #292D33;
   height: 4.5rem;
+  border: 0;
 }
 .phone-icon {
   fill: #5C8EE6;
@@ -79,8 +80,8 @@ body {
   height: 100%;
 }
 .header-nav {
-  flex-basis: 100%;
   display: flex;
+  flex-grow: 1;
   list-style: none;
   padding: 0;
   padding-left: 3.125rem;
@@ -92,6 +93,7 @@ body {
 .header-nav-link {
   text-decoration: none;
   font-size: 1rem;
+  word-spacing: 0.4px;
   color: inherit;
 }
 .header-phone {
@@ -114,9 +116,12 @@ body {
   background: #3A71D1;
   padding: 1.5625rem 3.75rem;
   border: none;
+  display: inline-block;
   cursor: pointer;
 }
 .navbar-button {
+  display: flex;
+  align-items: center;
   flex-shrink: 0;
   height: 100%;
   padding: 1.5625rem 3.125rem;
@@ -143,16 +148,17 @@ body {
   font-family: "Bebas Neue";
   font-size: 5rem;
   line-height: 120%;
-  margin: 1.875rem 0;
-  letter-spacing: 0.8px;
-  word-spacing: -1.6px;
+  margin-top: 1.375rem;
+  margin-bottom: 2.3125rem;
+  letter-spacing: 1.4px;
+  word-spacing: 0.7px;
 }
 .header-text {
   max-width: 45rem;
   font-style: normal;
   font-weight: 400;
   font-size: 1rem;
-  line-height: 160%;
+  line-height: 165%;
   margin-bottom: 3.125rem;
 }
 .header-features {
@@ -199,7 +205,7 @@ body {
   cursor: pointer;
 }
 .header-features-item {
-  padding:  1.75rem 3.125rem;
+  padding:  1.75rem 3rem;
   min-height: 100%;
   width: 18rem;
   border: 1px solid rgba(235, 235, 240, 0.2);
@@ -221,8 +227,14 @@ body {
 .section-title {
   font-family: "Bebas Neue";
   font-size: 3.75rem;
+  word-spacing: 2px;
   line-height: 120%;
   color: #292D33;  
+  margin-top: 1.4375rem;
+  margin-bottom: 3.25rem;
+}
+.section-swiper {
+  overflow: hidden;
 }
 .steps {
   display: flex;
@@ -236,8 +248,10 @@ body {
 }
 .steps-num {
   font-family: "Bebas Neue";
-  font-weight: 400;
-  font-size: 3rem;
+  font-weight: 600;
+  font-size: 2.9375rem;
+  letter-spacing: 1.5px;
+  word-spacing: -1.4px;
   line-height: 120%;
   color: #5C8EE6;
   display: flex;
@@ -247,21 +261,22 @@ body {
   content: '';
   height: 1px;
   background: #EBEBF0;
-  width: 100%;
+  width: 300px;
   margin-left: 1.875rem;
 }
 .steps-title {
   font-weight: 400;
   font-size: 1.75rem;
-  line-height: 160%;
+  line-height: 162%;
   color: #292D33;
-  margin-top: 1.875rem;
-  margin-bottom: 0.625rem;
+  margin-top: 2.1875rem;
+  margin-bottom: 0.6875rem;
 }
 .steps-text {
+  width: 18.75rem;
   font-weight: 400;
   font-size: 1rem;
-  line-height: 160%;
+  line-height: 162%;
   color: #828A99;
   margin-top: 0.625rem;
   margin-bottom: 1.25rem;
@@ -279,12 +294,15 @@ body {
   content: '';
   height: 1px;
   background: #5C8EE6;
-  width: 40px;
-  margin-right: 20px;
+  width: 2.5rem;
+  margin-right: 1.25rem;
 }
 @media (max-width: 1700px) {
   html {
     font-size: 14px;
+  }
+  .header-content {
+    padding-top: 7rem;
   }
   .header-image {
     background-position: center;
@@ -293,6 +311,9 @@ body {
 @media (max-width: 1460px) {
   html {
     font-size: 13px;
+  }
+  .header-content {
+    padding-top: 6rem;
   }
   .header-logo {
     padding: 2rem;
@@ -313,6 +334,12 @@ body {
 @media (max-width: 1200px) {
   .container {
     max-width: 70rem;
+  }
+  .header-content {
+    padding-top: 5rem;
+  }
+  .header-image {
+    width: 100%;
   }
   .header-phone {
     display: none;
@@ -335,6 +362,9 @@ body {
   .container {
     max-width: 60rem;
   }
+  .header-content {
+    padding-top: 4rem;
+  }
   .section-slider-buttons {
     display: flex;
   }
@@ -351,7 +381,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 1.8rem;
+    padding: 1.9rem 2.5rem;
     border-right: 1px solid rgba(235, 235, 240,0.2);
   }
   .navbar-light .mobile-menu-line {
@@ -420,10 +450,10 @@ body {
   .mobile-phone {
     display: block;
     font-weight: 700;
-    font-size: 18px;
+    font-size: 20px;
     line-height: 160%;
     color: #292d33;
-    text-decoration: underline;
+    text-decoration-line: underline;
     border-top: 1px solid #ebebf0;
     padding-top: 2rem;
     margin-bottom: 1.5rem;
@@ -442,6 +472,12 @@ body {
     font-size: 14px;
     line-height: 160%;
     color: #292d33;
+  }
+  .mobile-social-link {
+    display: flex;
+    font-display: column;
+    gap: 10px;
+    padding-top: 1rem;
   }
   .close-menu .mobile-menu-line:nth-child(2) {
     display: none;
@@ -469,12 +505,9 @@ body {
     max-width: 90%;
   }
   .header-title {
-    font-size: 2rem;
+    font-size: 2.5rem;
   }
   .header-content {
-    padding-top: 2rem;
-  }
-  .steps {
-    min-height: 200px;
+    padding-top: 3rem;
   }
 }
