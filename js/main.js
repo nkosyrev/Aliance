@@ -82,25 +82,16 @@ const sectionSwiper = new Swiper('.section-swiper', {
     576: {
       slidesPerView: 2,
       allowTouchMove: true,
-      centeredSlides: true,
     },
     // when window width is >= 768px
     768: {
       slidesPerView: 3,
       allowTouchMove: true,
-      centeredSlides: true,
     },
     // when window width is >= 1024px
-    1024: {
-      slidesPerView: 4,
-      allowTouchMove: true,
-      centeredSlides: true,
-    },
-    // when window width is >= 1200px
     1200: {
-      slidesPerView: 5,
+      slidesPerView: 4,
       allowTouchMove: false,
-      centeredSlides: true,
     },
   },
 });
