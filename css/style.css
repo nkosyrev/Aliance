@@ -269,11 +269,10 @@ body {
   font-size: 1.75rem;
   line-height: 162%;
   color: #292D33;
-  margin-top: 2.1875rem;
-  margin-bottom: 0.6875rem;
+  margin-top: 1.875rem;
+  margin-bottom: 0.625rem;
 }
 .steps-text {
-  width: 18.75rem;
   font-weight: 400;
   font-size: 1rem;
   line-height: 162%;
@@ -473,12 +472,6 @@ body {
     line-height: 160%;
     color: #292d33;
   }
-  .mobile-social-link {
-    display: flex;
-    font-display: column;
-    gap: 10px;
-    padding-top: 1rem;
-  }
   .close-menu .mobile-menu-line:nth-child(2) {
     display: none;
   }
@@ -508,6 +501,9 @@ body {
     font-size: 2.5rem;
   }
   .header-content {
-    padding-top: 3rem;
+    padding-top: 2rem;
+  }
+  .steps {
+    min-height: 200px;
   }
 }
