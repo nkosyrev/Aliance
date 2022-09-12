@@ -241,10 +241,10 @@ body {
   min-height: 12.5rem;
   list-style: none;
   padding: 0;
-  gap: 1.875rem;
+/*   gap: 1.875rem; */
 }
 .steps-item {
-  max-width: 20.625rem;
+/*   max-width: 20.625rem; */
 }
 .steps-num {
   font-family: "Bebas Neue";
