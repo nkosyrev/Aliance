@@ -10,6 +10,11 @@
     <link rel="stylesheet" href="css/swiper-bundle.min.css">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
+    <style>
+      .trademarks_card:hover svg use {
+        fill: #5C8EE6
+      }
+    </style>
     <title>Aliance Production</title>
   </head>
   <body>
@@ -251,7 +256,7 @@
       </div>
       <!-- /.container -->
     </section>
-    <section class="section production">
+    <div class="section production">
       <div class="container">
         <div class="seporator"></div>
         <h2 class="section-title">контрактное производство</h2>
@@ -319,27 +324,31 @@
         </div>
         <!-- /.cards -->
       </div>
-    </section>
-    <section class="section own-trademarks">
+    </div>
+    <div class="section trademark">
       <div class="container">
         <div class="seporator"></div>
         <h2 class="section-title">собственные торговые марки</h2>
         <div class="trademarks">
-          <a href="#" class="trademark">
-            <img src="img/AGTECH.svg" alt="Автохимия AG-Tech" class="trademark-image">
-            <div class="trademark-content">
-              <h3 class="trademark-title">Автохимия AG-Tech</h3>
-              <p class="trademark-text">
+          <a href="#" class="trademarks_card">
+            <svg class="trademark-svg" width="180px" height="180px">
+              <use href="img/sprite.svg#AG"></use>
+            </svg>
+            <div class="trademarks_card-content">
+              <h3 class="trademarks_title">Автохимия AG-Tech</h3>
+              <p class="trademarks_text">
                 Для современного мира разбавленное изрядной долей эмпатии, рациональное мышление создаёт предпосылки для поставленных обществом задач.
               </p>
             </div>
             <!-- /.card-content -->
           </a>
-          <a href="#" class="trademark">
-            <img src="img/AP.svg" alt="Автохимия AP" class="trademark-image">
-            <div class="trademark-content">
-              <h3 class="trademark-title">Автохимия AP</h3>
-              <p class="trademark-text">
+          <a href="#" class="trademarks_card">
+            <svg class="trademark-svg" width="180px" height="180px">
+              <use href="img/sprite.svg#AP"></use>
+            </svg>
+            <div class="trademarks_card-content">
+              <h3 class="trademarks_title">Автохимия AP</h3>
+              <p class="trademarks_text">
                 Для современного мира разбавленное изрядной долей эмпатии, рациональное мышление создаёт предпосылки для поставленных обществом задач.
               </p>
             </div>
@@ -348,7 +357,7 @@
         </div>
         <!-- /.cards -->
       </div>
-    </section>
+    </div>
     <script src="js/swiper-bundle.min.js"></script>
     <script src="js/main.js"></script>
   </body>

@@ -366,45 +366,44 @@ body {
   display: flex;
   flex-wrap: wrap;
 }
-.trademark {
+.trademarks_card {
   display: flex;
   align-items: center;
-  justify-content: center;
   text-decoration: none;
   flex-basis: 50%;
   border: 1px solid #ebebf0;
-  position: relative;
   transition: border 0.2s;
 }
-.trademark:hover .trademark-title, .trademark-image {
-  color: #5C8EE6;
+.trademark-svg {
+  flex-shrink: 0;
+  margin: 3.0625rem 3.125rem;
 }
-.trademark:hover {
-  border-color:#5C8EE6;;
-}
-.trademark-content {
-  padding: 3.125rem;
-}
-.trademark-title {
+.trademarks_title {
   font-weight: 400;
   font-size: 1.75rem;
   line-height: 160%;
   color: #292D33;
-  margin-top: 0;
   margin-bottom: 0.625rem;
   transition: color 0.2s;
 }
-.trademark-text {
+.trademarks_text {
+  font-weight: 400;
   font-size: 1rem;
   line-height: 160%;
   color: #828A99;
 }
-.trademark-image {
-  width: 11.25rem;
-  height: 11.25rem;
-  margin: 3.125rem;
-  color: #828A99;
-  transition: color 0.2s;
+.trademark-svg {
+  fill: #828A99;
+}
+.trademarks_card .trademark-svg:hover #AG,
+.trademarks_card .trademark-svg:hover #AP {
+  fill: #5C8EE6;
+}
+.trademarks_card:hover .trademarks_title {
+  color: #5C8EE6;
+}
+.trademarks_card:hover {
+  border-color: #5C8EE6;
 }
 @media (max-width: 1700px) {
   html {
@@ -454,7 +453,7 @@ body {
     display: none;
   }
   .navbar {
-    height: 5rem;
+    height: 5.8rem;
   }
   .navbar-button {
     padding-left: 2rem;
@@ -469,7 +468,7 @@ body {
   .card {
     flex-basis: 50%;
   }
-  .trademark {
+  .trademarks {
     flex-basis: 100%;
   }
 }
@@ -600,6 +599,10 @@ body {
   .close-menu .mobile-menu-line:nth-child(3) {
     transform: rotate(-45deg) translateY(-9px);
   }
+  .trademarks {
+    display: block;
+    flex-wrap: nowrap;
+  }
 }
 @media (max-width:768px) {
   .container {
@@ -627,5 +630,11 @@ body {
   }
   .steps {
     min-height: 200px;
+  }
+  .trademarks_card {
+    flex-direction: column;
+  }
+  .trademarks_card-content {
+    padding: 30px;
   }
 }
