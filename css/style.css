@@ -216,9 +216,6 @@ body {
   margin-bottom: 3.25rem;
   word-spacing: -2.5px;
 }
-.section-swiper {
-/*   overflow: hidden; */
-}
 .steps {
   display: flex;
   min-height: 12.5rem;
