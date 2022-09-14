@@ -1,5 +1,5 @@
 {
-  "liveServer.settings.CustomBrowser": "firefox",
+  "liveServer.settings.CustomBrowser": "chrome",
   "liveServer.settings.fullReload": false,
   "files.autoSave": "onFocusChange",
   "editor.tabSize": 2,
