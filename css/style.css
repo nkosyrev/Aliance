@@ -623,6 +623,21 @@ body {
   .trademark-cards {
     flex-direction: column;
   }
+  .card:hover .card-title {
+    color: #292D33;
+  }
+  .card:hover {
+    border-color:#ebebf0;;
+  }
+  .trademark-card:hover {
+    border-color: #ebebf0;
+  }
+  .trademark-card:hover .trademark-card-logo {
+    fill: #828A99;;
+  }
+  .trademark-card:hover .trademark-card-title {
+    color: #292D33;
+  }
 }
 @media (max-width:768px) {
   .container {
@@ -679,7 +694,7 @@ body {
   .trademark-card {
     grid-column-gap: 1.25rem;
     grid-template-columns: auto 165px;
-    grid-template-rows: 130px 100px;
+    grid-template-rows: 130px 150px;
     padding: 1.6rem;
   }
 .trademark-card-title {
