@@ -314,9 +314,6 @@ body {
   margin-right: 1.3rem;
   transition: width 0.2s;
 }
-.button-link:hover::before {
-  width: 60px;
-}
 .steps-buttons {
   display: none;
   height: 40px;
@@ -342,12 +339,6 @@ body {
   border: 1px solid #ebebf0;
   position: relative;
   transition: border 0.2s;
-}
-.card:hover .card-title {
-  color: #5C8EE6;
-}
-.card:hover {
-  border-color:#5C8EE6;;
 }
 .card-content {
   padding: 43px 0px 73px 49px;
@@ -422,15 +413,6 @@ body {
   color: #828A99;
   grid-area: text;
   margin-top: 0.625rem;
-}
-.trademark-card:hover {
-  border-color: #5C8EE6;
-}
-.trademark-card:hover .trademark-card-logo {
-  fill: #5C8EE6;;
-}
-.trademark-card:hover .trademark-card-title {
-  color: #5C8EE6;;
 }
 .founder {
   min-height: 41.25rem;
@@ -518,9 +500,6 @@ body {
 .clients-logo {
   filter: grayscale(100%);
 }
-.clients-logo:hover {
-  filter: none;
-}
 @media (max-width: 1750px) {
   html {
     font-size: 14px;
@@ -598,6 +577,29 @@ body {
   }
   .clients-content {
     flex-basis: 60%;
+  }
+}
+@media (min-width: 1050px) {
+  .button-link:hover::before {
+    width: 60px;
+  }
+  .card:hover .card-title {
+    color: #5C8EE6;
+  }
+  .card:hover {
+    border-color:#5C8EE6;;
+  }
+  .trademark-card:hover {
+    border-color: #5C8EE6;
+  }
+  .trademark-card:hover .trademark-card-logo {
+    fill: #5C8EE6;;
+  }
+  .trademark-card:hover .trademark-card-title {
+    color: #5C8EE6;;
+  }
+  .clients-logo:hover {
+    filter: none;
   }
 }
 @media (max-width: 1050px) {
@@ -732,27 +734,6 @@ body {
   }
   .trademark-cards {
     flex-direction: column;
-  }
-  .card:hover .card-title {
-    color: #292D33;
-  }
-  .card:hover {
-    border-color:#ebebf0;;
-  }
-  .trademark-card:hover {
-    border-color: #ebebf0;
-  }
-  .trademark-card:hover .trademark-card-logo {
-    fill: #828A99;;
-  }
-  .trademark-card:hover .trademark-card-title {
-    color: #292D33;
-  }
-  .founder-photo {
-    width: 40%;
-  }
-  .clients-logo:hover {
-    filter: grayscale(100%);
   }
   .clients-wrapper {
     flex-direction: column;
