@@ -500,6 +500,29 @@ body {
 .clients-logo {
   filter: grayscale(100%);
 }
+@media (hover: hover) and (pointer: fine) {
+  .button-link:hover::before {
+    width: 60px;
+  }
+  .card:hover .card-title {
+    color: #5C8EE6;
+  }
+  .card:hover {
+    border-color:#5C8EE6;;
+  }
+  .trademark-card:hover {
+    border-color: #5C8EE6;
+  }
+  .trademark-card:hover .trademark-card-logo {
+    fill: #5C8EE6;;
+  }
+  .trademark-card:hover .trademark-card-title {
+    color: #5C8EE6;;
+  }
+  .clients-logo:hover {
+    filter: none;
+  }
+}
 @media (max-width: 1750px) {
   html {
     font-size: 14px;
@@ -577,29 +600,6 @@ body {
   }
   .clients-content {
     flex-basis: 60%;
-  }
-}
-@media (min-width: 1050px) {
-  .button-link:hover::before {
-    width: 60px;
-  }
-  .card:hover .card-title {
-    color: #5C8EE6;
-  }
-  .card:hover {
-    border-color:#5C8EE6;;
-  }
-  .trademark-card:hover {
-    border-color: #5C8EE6;
-  }
-  .trademark-card:hover .trademark-card-logo {
-    fill: #5C8EE6;;
-  }
-  .trademark-card:hover .trademark-card-title {
-    color: #5C8EE6;;
-  }
-  .clients-logo:hover {
-    filter: none;
   }
 }
 @media (max-width: 1050px) {
@@ -734,6 +734,9 @@ body {
   }
   .trademark-cards {
     flex-direction: column;
+  }
+  .founder-photo {
+    width: 40%;
   }
   .clients-wrapper {
     flex-direction: column;
