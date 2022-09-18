@@ -748,6 +748,9 @@ body {
   .trademark-card:hover .trademark-card-title {
     color: #292D33;
   }
+  .founder-photo {
+    width: 40%;
+  }
   .clients-logo:hover {
     filter: grayscale(100%);
   }
