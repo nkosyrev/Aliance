@@ -881,7 +881,7 @@ body {
   .trademark-card {
     grid-column-gap: 1.25rem;
     grid-template-columns: auto 162px;
-    grid-template-rows: 123px 111px;
+    grid-template-rows: 123px 135px;
     padding: 1.295rem 1.5975rem 1.35rem 1.8375rem
   }
   .trademark-card-title {
