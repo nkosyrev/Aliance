@@ -89,10 +89,42 @@ const swiperSteps = new Swiper(".steps-slider", {
       allowTouchMove: true,
     },
     // when window width is >= 1024px
-    1200: {
+    1050: {
       slidesPerView: 4,
       allowTouchMove: false,
     },
   },
 });
-  
+
+const swiperBlog = new Swiper(".blog-slider", {
+  speed: 400,
+  slidesPerView: 2,
+  spaceBetween: 30,
+  navigation: {
+    nextEl: '.blog-button-next',
+    prevEl: '.blog-button-prev',
+  },
+  breakpoints: {
+    // when window width is >= 1024px
+    320: {
+      slidesPerView: 1,
+      allowTouchMove: true,
+    },
+    430: {
+      slidesPerView: 1,
+      allowTouchMove: true,
+    },
+    576: {
+      slidesPerView: 1,
+      allowTouchMove: true,
+    },
+    768: {
+      slidesPerView: 1,
+      allowTouchMove: true,
+    },
+    1050: {
+      slidesPerView: 2,
+      allowTouchMove: true,
+    },
+  },
+});
