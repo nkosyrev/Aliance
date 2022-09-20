@@ -493,12 +493,11 @@ body {
   align-items: center;
   justify-content: center;
   padding: 1rem;
+  filter: grayscale(100%);
+  transition: filter 0.2s;
 }
 .last {
   display: flex;
-}
-.clients-logo {
-  filter: grayscale(100%);
 }
 @media (hover: hover) and (pointer: fine) {
   .button-link:hover::before {
@@ -519,8 +518,8 @@ body {
   .trademark-card:hover .trademark-card-title {
     color: #5C8EE6;;
   }
-  .clients-logo:hover {
-    filter: none;
+  .clients-logo-item:hover {
+    filter: grayscale(0%);
   }
 }
 @media (max-width: 1750px) {
