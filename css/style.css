@@ -610,7 +610,7 @@ body {
 }
 .input-group {
   position: relative;
-  width: 405px;
+  width: 100%;
   height: 66px;
   flex-grow: 1;
   background-color: #F0F2F5;
@@ -813,7 +813,7 @@ body {
   background-color: #fff;
   margin: auto;
   max-width: 28.75rem;
-  padding: 2.5rem 3.125rem;
+  padding: 1.9rem 3.325rem;
   position: relative;
   transform: translateY(-10%);
   opacity: 0;
@@ -838,16 +838,17 @@ body {
   font-size: 3rem;
   line-height: 120%;
   color: #292D33;
-  margin-top: 0;
-  margin-bottom: 20px;
+  margin-top: 0rem;
+  margin-bottom: 1.5rem;
+  letter-spacing: 0.5px;
 }
 .modal-text {
   font-style: normal;
   font-weight: 400;
   font-size: 1rem;
-  line-height: 160%;
+  line-height: 164%;
   color: #828A99;
-  margin-bottom: 1.875rem;
+  margin-bottom: 1.275rem;
 }
 .modal-input-group {
   background-color: #fff;
@@ -1264,6 +1265,12 @@ body {
   }
 }
 @media (max-width:430px) {
+  .close-menu .mobile-menu-line:nth-child(3) {
+    transform: rotate(-45deg) translateY(-9px);
+  }
+  .close-menu .mobile-menu-line:nth-child(1) {
+    transform: rotate(45deg) translateY(9px);
+  }
   .header-button {
     width: 100%;
     font-size: 1.175rem;
@@ -1273,7 +1280,7 @@ body {
     height: 5.5rem;
   }
   .navbar-button {
-    padding-right: 3.1rem;
+    padding-right: 5rem;
   }
   .header-content {
     padding-top: 3.22rem;
@@ -1331,7 +1338,6 @@ body {
     margin-top: 1rem;
     margin-bottom: 0.425rem;
     letter-spacing: -1.2px;
-    margin-left: -0.25rem;
   }
   .steps-text {
     font-size: 1.2rem;
@@ -1384,7 +1390,7 @@ body {
     margin-bottom: 8.25rem;
   }
   .trademark-card {
-    width: 27.5625rem;
+    width: 100%;
     height: 16.75rem;
     grid-column-gap: 5.25rem;
     grid-template-columns: auto 180px;
@@ -1567,6 +1573,9 @@ body {
   }
   .footer-copyright {
     margin-top: 1.25rem;
+  }
+  .input-group {
+    width: 100%;
   }
 }
 @media (max-width:320px) {
