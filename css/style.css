@@ -671,6 +671,118 @@ body {
   color: #828A99;
   margin: 0;
 }
+.footer-top {
+  padding-top: 3.325rem;
+  padding-bottom: 2.625rem;
+  display: flex;
+  align-items: center;
+}
+.footer-info {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #292d33;
+  gap: 10px;
+  margin-right: 3.125rem;
+}
+.footer-info-address, .footer-info-email {
+  font-style: inherit;
+  text-decoration: inherit;
+  color: inherit;
+}
+.footer-logo {
+  width: 12.5rem;
+  height: 3.75rem;
+  margin-right: 10rem;
+}
+.footer-phone {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 160%;
+  text-decoration-line: underline;
+  color: #292D33;
+  margin-right: 5.125rem;
+}
+.footer-social-link {
+  text-decoration: none;
+  margin-left: 0.6875rem;
+}
+.footer-seporator {
+  color: #EBEBF0;
+  background-color: #EBEBF0;
+}
+.footer-bottom {
+  display: flex;
+  padding-top: 2.725rem;
+  padding-bottom: 1.625rem;
+}
+.footer-menu-title {
+  margin-top: 0;
+  margin-bottom: 1.9rem;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 160%;
+  margin-left: -0.125rem;
+}
+.footer-menu-list {
+  margin: 0;
+  padding-left: 1.25rem;
+  list-style: none;
+}
+.footer-menu-column-2 {
+  columns: 20rem auto;
+  min-width: 45.1rem;
+}
+.footer-menu-link {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 160%;
+  color: #828A99;
+  margin-bottom: 0.9375rem;
+  display: block;
+}
+.footer-menu-link-bold {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 160%;
+  color: #292D33;
+  margin-bottom: 1.875rem;
+}
+.footer-menu-wrapper:last-child {
+  margin-left: 10.5rem;
+}
+.footer-wrapper {
+  font-style: normal;
+  color: #828A99;
+}
+.footer-wrapper, 
+.footer-legal {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 81px;
+}
+.footer-copyright, 
+.footer-policy {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.75rem;
+  line-height: 160%;
+  color: inherit;
+}
+.made-in {
+  font-size: 0.75rem;
+  padding-right: 0.375rem;
+}
+.develop {
+  display: none;
+  font-size: 1rem;
+  padding-right: 0.375rem;
+}
 @media (hover: hover) and (pointer: fine) {
   .button-link:hover::before {
     width: 60px;
@@ -703,6 +815,12 @@ body {
   }
   .header-image {
     background-position: center;
+  }
+  .footer-phone {
+    font-size: 1.5rem;
+  }
+  .footer-logo {
+    margin-right: 3rem;
   }
 }
 @media (max-width: 1570px) {
@@ -738,6 +856,9 @@ body {
   }
   .cta-image {
     left: -8.25rem;
+  }
+  .footer-phone {
+    margin-right: 2rem;
   }
 }
 @media (max-width: 1240px) {
@@ -787,6 +908,22 @@ body {
   }
   .cta-form-wrapper {
     justify-content: center;
+  }
+  .footer-logo {
+    margin-right: 5rem;
+  }
+  .footer-phone {
+    display: none;
+  }
+  .footer-bottom {
+    justify-content: space-between;
+  }
+  .footer-menu-column-2 {
+    columns: 1;
+    min-width: 5rem;
+  }
+  .footer-menu-wrapper:last-child {
+    margin-left: 0;
   }
 }
 @media (max-width: 1050px) {
@@ -931,6 +1068,15 @@ body {
   .clients-wrapper {
     flex-direction: column;
   }
+  .footer-logo {
+    margin-right: 3rem;
+  }
+  .footer-info {
+    margin-right: 1rem;
+  }
+  .footer-social-link {
+    margin-left: 0;
+  }
 }
 @media (max-width:768px) {
   .container {
@@ -959,6 +1105,50 @@ body {
   }
   .cta-form-button {
     width: 100%;
+  }
+  .footer-top {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .footer-phone {
+    display: flex;
+    padding-top: 1.875rem;
+    padding-bottom: 1.25rem;
+  }
+  .footer-logo {
+    margin: 0;
+  }
+  .footer-info {
+    padding-bottom: 0.625rem;
+  }
+  .footer-social-link {
+    padding-top: 0.625rem;
+  }
+  .footer-bottom {
+    flex-direction: column;
+  }
+  .footer-menu-wrapper {
+    margin-top: 1.875rem;
+  }
+  .footer-wrapper, .footer-legal {
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+  }
+  .footer-copyright {
+    margin: 0;
+  }
+  .footer-author {
+    margin-bottom: 1.25rem;
+  }
+  .develop {
+    display: flex;
+  }
+  .made-in {
+    display: none;
+  }
+  .footer-author {
+    display: flex;
   }
 }
 @media (max-width:576px) {
@@ -991,39 +1181,42 @@ body {
   .header-button {
     width: 100%;
     font-size: 1.175rem;
-    padding: 1.55rem 1.2rem 1.5rem 0rem;
+    padding: 1.55rem 0rem;
   }
   .navbar {
-    height: 5.4rem;
+    height: 5.5rem;
   }
   .navbar-button {
-    padding-right: 4rem;
+    padding-right: 3.1rem;
   }
   .header-content {
-    padding-top: 2.8rem;
+    padding-top: 3.22rem;
   }
   .header-title {
-    line-height: 116%;
-    margin-top: 1.275rem;
-    letter-spacing: -1px;
-    word-spacing: -1px;
+    line-height: 121%;
+    margin-top: 1.21rem;
+    letter-spacing: -0.1px;
+    word-spacing: -1.8px;
     margin-bottom: 1rem;
   }
   .header-text {
     font-size: 1.2rem;
-    letter-spacing: 0px;
-    line-height: 145%;
-    word-spacing: -3.7px;
+    letter-spacing: -0.4px;
+    line-height: 153%;
+    word-spacing: 1px;
     margin-bottom: 2.5rem;
   }
   .header-features {
-    margin-top: 4rem;
+    margin-top: 5.3rem;
   }
   .header-features-item {
-    padding: 2.55rem 3rem 2.55rem 3rem
+    padding: 0.55rem 0rem 1.15rem 2.1rem;
+  }
+  .header-features-text {
+    margin-top: 1.425rem;
   }
   .header {
-    margin-bottom: 7.57rem;
+    margin-bottom: 8.1rem;
   }
   .button-link-big {
     display: none;
@@ -1043,7 +1236,7 @@ body {
   }
   .steps {
     min-height: 14.625rem;
-    margin-top: 0.375rem;
+    margin-top: 0.875rem;
   }
   .steps-num {
     font-size: 3.5rem;
@@ -1056,46 +1249,46 @@ body {
   }
   .steps-text {
     font-size: 1.2rem;
-    line-height: 148%;
+    line-height: 159%;
     letter-spacing: -0.6px;
     margin-top: 0;
     margin-bottom: 2rem;
   }
   .steps-buttons {
     margin-top: 1.69rem;
-    padding: 0px 0.1875rem 0.125rem 0px;
+    padding: 0;
   }
   .cards {
-    margin-top: 2.3rem;
+    margin-top: 2.8rem;
   }
   .card {
     width: 345px;
-    height: 414px;
+    height: 430px;
   }
   .card-content {
     padding: 0;
-    padding-top: 1.49rem;
+    padding-top: 1.69rem;
   }
   .card-title {
     word-spacing: -0.5px;
-    letter-spacing: -1px;
-    margin-bottom: -0.3rem;
+    letter-spacing: -0.5px;
+    margin-bottom: 0rem;
     margin-left: 2rem;
     line-height: 123%;
     margin-right: 3.9625rem;
   }
   .card-text {
     font-size: 1.2rem;
-    line-height: 145%;
+    line-height: 142%;
     margin-top: 1.1125rem;
-    margin-bottom: 0;
+    margin-bottom: -0.2rem;
     margin-left: 2.065rem;
     margin-right: 3.175rem;
-    letter-spacing: -0.5px;
+    letter-spacing: -0.2px;
     word-spacing: 0.1px;
   }
   .production {
-    margin-top: 7.65rem;
+    margin-top: 8.25rem;
   }
   .trademark {
     margin-top: 7.93rem;
@@ -1161,7 +1354,7 @@ body {
   }
   .founder-photo {
     margin-bottom: 0.7rem;
-    width: 95%;
+    width: 100%;
   }
   .founder-text {
     font-size: 1.2rem;
@@ -1212,7 +1405,6 @@ body {
     margin-top: 8rem;
   }
   .section-cta {
-    width: 95%;
     margin-top: 0rem;
     padding-top: 1.4rem;
   }
@@ -1244,4 +1436,58 @@ body {
   .notify-text {
     font-size: 0.95rem;
   }
-} 
+  .footer-top {
+    padding-top: 4.325rem;
+    padding-bottom: 1.625rem;
+  }
+  .footer-phone {
+    font-size: 2.5rem;
+    padding-top: 2.675rem;
+    letter-spacing: -1.5px;
+    word-spacing: 1.5px;
+  }
+  .footer-info {
+    padding-top: 0.3125rem;
+    font-size: 14px;
+  }
+  .footer-social-link {
+    padding-top: 1.025rem;
+    padding-right: 0.625rem;
+  }
+  .footer-bottom {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .footer-menu-title {
+    letter-spacing: -1.3px;
+    word-spacing: 3px;
+    margin-bottom: 1.7rem;
+  }
+  .footer-menu-link {
+    line-height: 140%;
+    font-size: 1.2rem;
+  }
+  .footer-menu-link-bold {
+    margin-bottom: 2.575rem;
+  }
+  .footer-menu-wrapper {
+    margin-top: 1.745rem;
+  }
+  .footer-menu-list-bold {
+    padding-left: 0;
+  }
+  .footer-copyright, .footer-policy {
+    font-size: 1rem;
+  }
+  .footer-copyright {
+    margin-top: 1.25rem;
+  }
+}
+@media (max-width:320px) {
+  .trademark-card {
+    width: 24rem;
+  }
+  .trademark {
+    width: 100%;
+  }
+}
