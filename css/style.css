@@ -586,6 +586,7 @@ body {
 .cta-form-wrapper {
   display: flex;
   justify-content: flex-end;
+  margin-left: 4.25rem;
 }
 .cta-form {
   max-width: 52.5rem;
@@ -813,7 +814,7 @@ body {
   background-color: #fff;
   margin: auto;
   max-width: 28.75rem;
-  padding: 1.9rem 3.325rem;
+  padding: 2.3rem 3.125rem;
   position: relative;
   transform: translateY(-10%);
   opacity: 0;
@@ -848,7 +849,7 @@ body {
   font-size: 1rem;
   line-height: 164%;
   color: #828A99;
-  margin-bottom: 1.275rem;
+  margin-bottom: 1.975rem;
 }
 .modal-input-group {
   background-color: #fff;
@@ -860,6 +861,8 @@ body {
   display: block;
   width: 100%;
   margin-bottom: 1.5rem;
+  font-size: 0.9rem;
+  padding: 1.1625rem 3.95rem;
 }
 
 
@@ -1263,6 +1266,9 @@ body {
   .input-group-wrapper{
     flex-direction: column;
   }
+  .cta-form-wrapper {
+    margin-left: 3.5rem;
+  }
 }
 @media (max-width:430px) {
   .close-menu .mobile-menu-line:nth-child(3) {
@@ -1280,7 +1286,7 @@ body {
     height: 5.5rem;
   }
   .navbar-button {
-    padding-right: 5rem;
+    padding-right: 2.4rem;
   }
   .header-content {
     padding-top: 3.22rem;
@@ -1323,8 +1329,8 @@ body {
   .section-title {
     font-size: 2.8rem;
     margin-bottom: 2.1rem;
-    word-spacing: 0.5px;
-    letter-spacing: 0.4px;
+    word-spacing: 1px;
+    letter-spacing: 0.8px;
     line-height: 124%;
   }
   .steps {
@@ -1354,7 +1360,7 @@ body {
     margin-top: 2.8rem;
   }
   .card {
-    width: 345px;
+    width: 100%;
     height: 430px;
   }
   .card-content {
@@ -1383,10 +1389,10 @@ body {
     margin-top: 8.25rem;
   }
   .trademark {
-    margin-top: 7.93rem;
+    margin-top: 8.33rem;
   }
   .trademark-cards {
-    margin-top: 2.3rem;
+    margin-top: 2.8rem;
     margin-bottom: 8.25rem;
   }
   .trademark-card {
@@ -1394,7 +1400,7 @@ body {
     height: 16.75rem;
     grid-column-gap: 5.25rem;
     grid-template-columns: auto 180px;
-    grid-template-rows: 135px 122px;
+    grid-template-rows: 135px 132px;
     padding: 0;
   }
   .trademark-card-title {
@@ -1404,12 +1410,16 @@ body {
   }
   .trademark-card-text {
     font-size: 1.2rem;
+    margin-top: 1.225rem;
     margin-left: 1.5625rem;
     line-height: 148%;
     letter-spacing: -0.3px;
   }
   .trademark-card-logo {
     margin-left: 2.4875rem;
+  }
+  .founder-content {
+    margin-top: 2.9125rem;;
   }
   .clients {
     margin-top: 8.25rem;
@@ -1420,18 +1430,20 @@ body {
   }
   .clients-logo-item {
     flex-basis: 50%;
-    padding: 16px;
-    width: 172px;
-    height: 106px;
+    padding: 0;
+    width: 100%;
+    height: 110px;
   }
   .clients-logo-list {
-    margin: 0.8rem 0.725rem 0rem -0.4375rem;
+    margin: 0;
+    margin-top: 0.625rem;
   }
   .clients-list {
     margin-top: 1.8rem;
+    margin-right: 0;
   }
   .clients-list-item {
-    padding-bottom: 0.3rem;
+    padding-bottom: 0.5rem;
     font-size: 14px;
   }
   .last {
@@ -1452,18 +1464,18 @@ body {
     font-size: 1.2rem;
     word-spacing: -1.7px;
     letter-spacing: -0.3px;
-    line-height: 148%;
+    line-height: 152%;
     margin-bottom: 1.745rem;
-    margin-top: -1.325rem;
+    margin-top: -0.725rem;
   }
   .clients-wrapper {
     gap: 4px;
   }
   .blog {
-    margin-top: 8.1rem;
+    margin-top: 8.2rem;
   }
   .blog-cards {
-    margin-top: 0.2rem;
+    margin-top: 1.2rem;
   }
   .blog-card {
     padding: 1.125rem;
@@ -1494,22 +1506,30 @@ body {
     font-size: 1.15rem;
   }
   .cta {
-    margin-top: 8rem;
+    margin-top: 8.3rem;
   }
   .section-cta {
     margin-top: 0rem;
-    padding-top: 1.4rem;
+    padding-top: 2rem;
+    padding-bottom: 4.27rem;
+  }
+  .cta-form-wrapper {
+    margin-left: 1.3rem;
   }
   .cta-form-title {
     padding-top: 0.625rem;
   }
   .cta-form-text {
-    font-size: 1.075rem;
+    font-size: 1.175rem;
     margin-top: -0.775rem;
-    margin-bottom: 2.1rem;
+    margin-bottom: 2.7rem;
+    word-spacing: -0.5px;
+    letter-spacing: -0.2px;
+    line-height: 148%;
   }
   .input-group {
     width: 100%;
+    height: 62px;
   }
   .cta-form-footer {
     margin-top: 0.0775rem;
@@ -1517,12 +1537,13 @@ body {
   .cta-form-button {
     font-size: 1.175rem;
     margin-top: 10px;
+    padding: 1.65rem;
   }
   .input-group-wrapper {
-    gap: 0.975rem;
+    gap: 1.575rem;
   }
   .notify {
-    margin-left: -0.625rem;
+    margin-left: -2.725rem;
     margin-top: 0.7375rem;
   }
   .notify-text {
@@ -1579,8 +1600,11 @@ body {
   }
 }
 @media (max-width:320px) {
+  .navbar-button {
+    padding-right: 2rem;
+  }
   .trademark-card {
-    width: 24rem;
+    width: 100%;
   }
   .trademark {
     width: 100%;
