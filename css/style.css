@@ -36,13 +36,21 @@ body {
 .navbar-light {
   background-color: #fff;
   color: #292D33;
-  height: 4.5rem;
   border: 0;
+}
+.navbar-light .logo-light {
+  display: none;
+}
+.navbar-light .logo-dark {
+  display: block;
+}
+.navbar-scroll {
+  height: 4.5rem;
 }
 .phone-icon {
   fill: #5C8EE6;
 }
-.logo {
+.logo-dark {
   display: none;
 }
 .logo-svg {
@@ -863,6 +871,59 @@ body {
   margin-bottom: 1.5rem;
   font-size: 0.9rem;
   padding: 1.1625rem 3.95rem;
+}
+.bg-image {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center bottom -27rem;
+  position: relative;
+  background-image: url(../img/blog/blog-photo2.jpg);
+}
+.bg-image::before {
+  content: "";
+  position: absolute;
+  background-color: rgba(41, 45, 51, 0.6);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.header-about-title {
+  min-height: 16.875rem;
+}
+.header-about-content {
+  color: #fff;
+  position: relative;
+  z-index: 1;
+  padding: 3.125rem;
+}
+.breadcrumb {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 160%;
+  color: #828A99;
+}
+ul.breadcrumb {
+  padding: 0;
+  padding-top: 1.25rem;
+  list-style: none;
+}
+ul.breadcrumb li {
+  display: inline;
+  font-size: 0.875rem;
+}
+ul.breadcrumb li+li:before {
+  padding: 0.625rem;
+  color: #828A99;
+  content: "—";
+}
+ul.breadcrumb li a {
+  color: #828A99;
+  text-decoration: none;
+}
+ul.breadcrumb li a:hover {
+  color: #292D33;
 }
 
 
