@@ -875,7 +875,7 @@ body {
 .bg-image {
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center bottom -27rem;
+  background-position: center bottom -23rem;
   position: relative;
   background-image: url(../img/blog/blog-photo2.jpg);
 }
@@ -892,6 +892,9 @@ body {
   min-height: 16.875rem;
 }
 .header-about-content {
+  padding: 3.125rem;
+}
+.blog-more-content {
   color: #fff;
   position: relative;
   z-index: 1;
