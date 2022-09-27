@@ -103,7 +103,7 @@
       </a>
       <ul class="header-nav">
         <li class="header-nav-item">
-          <a href="/about.html" class="header-nav-link">О компании</a>
+          <a href="about.html" class="header-nav-link">О компании</a>
         </li>
         <li class="header-nav-item">
           <a href="#" class="header-nav-link">Контрактное производство</a>
@@ -140,7 +140,7 @@
         <div class="header-content">
           <div class="seporator"></div>
           <h1 class="header-title">
-            <?php echo "Главная страница"; ?>
+            Комплексное обеспечение товарами и расходными материалами бизнеса
           </h1>
           <p class="header-text">
             Высокий уровень вовлечения представителей целевой аудитории является четким доказательством простого факта: высококачественный прототип будущего проекта напрямую зависит от анализа существующих паттернов поведения.
@@ -256,7 +256,7 @@
         <div class="seporator"></div>
         <h2 class="section-title">контрактное производство</h2>
         <div class="cards">
-          <a href="/product-avtohim.html" class="card">
+          <a href="product-avtohim.html" class="card">
             <div class="card-content">
               <h3 class="card-title">Автомобильная химия</h3>
               <p class="card-text">
@@ -486,7 +486,7 @@
         <div class="swiper blog-slider">
           <div class="swiper-wrapper blog-cards">
 
-            <a href="/blog-more.html" class="swiper-slide blog-card">
+            <a href="blog-more.html" class="swiper-slide blog-card">
               <img src="img/blog/blog-photo1.jpg" alt="" class="blog-card-image">
               <h3 class="blog-card-title">
                 Современная методология разработки одухотворила всех причастных
