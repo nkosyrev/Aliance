@@ -14,7 +14,10 @@
                   type="text" 
                   class="input"
                   name="username" 
-                  placeholder=" ">
+                  placeholder=" "
+                  maxlenght="100"
+                  required
+                  >
                 <label class="input-group-label" for="user-name">Имя</label>
               </div>
               <!-- /.input-group -->
@@ -24,7 +27,10 @@
                   type="tel" 
                   class="input"
                   name="userphone"
-                  placeholder=" ">
+                  placeholder=" "
+                  maxlenght="30"
+                  required
+                  >
                 <label class="input-group-label" for="user-phone">Номер телефона</label>
               </div>
               <!-- /.input-group -->
