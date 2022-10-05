@@ -136,7 +136,7 @@ let currentModal; // текущее модальное окно
 let modalDialog; // белое диалоговое окно
 let alertModal = document.querySelector("#alert-modal"); // окно с предупреждением
 
-const modalButtons = document.querySelectorAll("[data-toggle-modal]"); // переключатели модальных окон
+const modalButtons = document.querySelectorAll("[data-toggle=modal]"); // переключатели модальных окон
 
 modalButtons.forEach((button) => {
   /* клик по переключателю */ 
