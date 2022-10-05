@@ -135,23 +135,19 @@
     </button>
   </nav>
   <!-- /.navbar -->
-  <header class="header header-about">
-    <div class="bg-grey header-about-title">
+  <header class="page-header page-header-bg-image">
       <div class="container">
-          <div class="header-about-content">
-            <div class="seporator"></div>
-            <h1 class="header-title">о компании</h1>
-            <ul class="breadcrumb">
-              <li>
-                <a href="./index.php">Главная</a>
-              </li>
-              <li>
-                <a href="./about.php">О компании</a>
-              </li>
-            </ul>
-          </div>
+        <div class="seporator"></div>
+        <h1 class="page-header-title">о компании</h1>
+        <ul class="breadcrumbs">
+          <li class="breadcrumbs-item">
+            <a href="./index.php" class="breadcrumbs-link">Главная</a>
+          </li>
+            
+            <a href="./about.php" class="breadcrumbs-link">О компании</a>
+          </li>
+        </ul>
       </div>
-    </div>
   </header>
 
 <?php include_once("footer.php")?>
