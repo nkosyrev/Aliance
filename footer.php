@@ -1,9 +1,9 @@
 <section class="cta">
       <div class="bg-grey section-cta">
-        <picture>
-          <source type="image/webp" srcset="img/cta.webp">
-          <source type="image/jpeg" srcset="img/cta.png">
-          <img class="cta-image" src="img/cta.png"  alt="cta">
+        <picture class="cta-image">
+          <source width="720" height="626" type="image/webp" srcset="img/cta.webp">
+          <source width="720" height="626" type="image/jpeg" srcset="img/cta.png">
+          <img width="720" height="626" src="img/cta.png"  alt="cta">
         </picture>
         <div class="cta-form-wrapper container">
           <form action="handler.php" method="POST" class="cta-form">
@@ -230,9 +230,9 @@
     <div class="modal" id="alert-modal">
       <div class="modal-dialog">
         <picture>
-          <source type="image/webp" srcset="img/thanks.webp">
-          <source type="image/jpeg" srcset="img/thanks.jpg">
-          <img src="img/thanks.jpg"  alt="thanks">
+          <source width="360" height="310" type="image/webp" srcset="img/thanks.webp">
+          <source width="360" height="310" type="image/jpeg" srcset="img/thanks.jpg">
+          <img width="360" height="310" src="img/thanks.jpg"  alt="thanks">
         </picture>
         <h2 class="modal-title">Спасибо за заявку!</h2>
         <a href="" class="modal-close" data-toggle="modal" data-target="#alert-modal">
