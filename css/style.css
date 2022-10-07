@@ -194,7 +194,7 @@ body {
   max-width: 30rem;
 }
 .page-header-bg-image {
-  background-image: url("../img/blog/blog-photo.jpg");
+  background-image: url("../img/blog/blog-photo.webp");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
