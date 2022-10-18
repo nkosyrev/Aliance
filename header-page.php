@@ -145,7 +145,7 @@
             <a href="./index.php" class="breadcrumbs-link">Главная</a>
           </li>
           <li class="breadcrumbs-item active">
-            <a href="./about.php" class="breadcrumbs-link"><?= $page_title ?></a>
+            <a href="" class="breadcrumbs-link"><?= $page_title ?></a>
           </li>
         </ul>
       </div>
