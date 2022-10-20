@@ -1,4 +1,4 @@
-<section class="cta">
+<section class="cta about-cta contracts-cta">
   <div class="bg-grey section-cta">
     <picture class="cta-image">
       <source width="720" height="626" type="image/webp" srcset="img/cta.webp">
