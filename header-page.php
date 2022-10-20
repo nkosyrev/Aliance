@@ -153,7 +153,7 @@
     </button>
   </nav>
   <!-- /.navbar -->
-  <header class="page-header <?= $header_style;?>">
+  <header class="page-header politics <?= $header_style;?>">
       <div class="container">
         <div class="seporator"></div>
         <h1 class="page-header-title"><?= $page_title ?></h1>

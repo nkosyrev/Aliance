@@ -166,18 +166,19 @@ $header_style = 'page-header-bg-grey';?>
               <li class="breadcrumbs-item">
                 <a href="./index.php" class="breadcrumbs-link">Главная</a>
               </li>
+              <li class="breadcrumbs-item">
+                <a href="./contracts.php" class="breadcrumbs-link">Контрактное производство</a>
+              </li>
               <li class="breadcrumbs-item active">
                 <a href="" class="breadcrumbs-link"><?= $page_title ?></a>
               </li>
             </ul>
           </div>
-          <div>
             <picture class="avto-him-logo">
-              <source type="image/webp" srcset="">
-              <source type="image/jpeg" srcset="img/avto-him-logo.jpg">
-              <img src="img/avto-him-logo.jpg"  alt="avtohim-logo">
+              <source width="480" height="240" type="image/webp" srcset="img/avto-him-logo.webp">
+              <source width="480" height="240" type="image/jpeg" srcset="img/avto-him-logo.jpg">
+              <img width="480" height="240" src="img/avto-him-logo.jpg"  alt="avtohim-logo">
             </picture>
-          </div>
         </div>
       </div>
   </header>
@@ -203,73 +204,72 @@ $header_style = 'page-header-bg-grey';?>
 <?php 
 include_once('./template-parts/features-block.php.');?>
 <section class="section product-avtohim">
-  <div class="container">
-    <div class="product-avtohim-content-wrapper">
-      <div class="product-avtohim-content">
-        <div class="seporator"></div>
-        <h2 class="section-title">Изготовление автохимии</h2>
-        <p class="product-avtohim-text">
-          Но современная методология разработки позволяет оценить значение прогресса профессионального сообщества. Есть над чем задуматься: тщательные исследования конкурентов набирают популярность среди определенных слоев населения, а значит, должны быть ассоциативно распределены по отраслям. В своём стремлении повысить качество жизни, они забывают, что дальнейшее развитие различных форм деятельности, а также свежий взгляд на привычные вещи - безусловно открывает новые горизонты для поставленных обществом задач.
-        </p>
-        <ul class="clients-list">
-          <li class="clients-list-item">
-            <svg width="30" height="30" class="client-list-icon">
-             <use href="img/sprite.svg#him"></use>
-            </svg>
-            Полное описание товаров
-          </li>
-          <li class="clients-list-item">
-            <svg width="30" height="30" class="client-list-icon">
-              <use href="img/sprite.svg#car"></use>
-            </svg>
-            Актуальные цены
-          </li>
-          <li class="clients-list-item">
-            <svg width="30" height="30" class="client-list-icon">
-              <use href="img/sprite.svg#him"></use>
-            </svg>
-            Полное описание товаров
-          </li>
-          <li class="clients-list-item">
-            <svg width="30" height="30" class="client-list-icon cosmetic-bs">
-              <use href="img/sprite.svg#him"></use>
-            </svg>
-            Актуальные цены
-          </li>
-          <li class="clients-list-item">
-            <svg width="30" height="30" class="client-list-icon">
-              <use href="img/sprite.svg#brush"></use>
-            </svg>
-            Лаки и краски
-          </li>
-          <li class="clients-list-item">
-            <svg width="30" height="30" class="client-list-icon">
-              <use href="img/sprite.svg#him"></use>
-            </svg>
-            Химические производства
-          </li>
-          <li class="clients-list-item">
-            <svg width="30" height="30" class="client-list-icon">
-              <use href="img/sprite.svg#brush"></use>
-            </svg>
-            Лаки и краски
-          </li>
-          <li class="clients-list-item">
-            <svg width="30" height="30" class="client-list-icon">
-              <use href="img/sprite.svg#him"></use>
-            </svg>
-            Химические производства
-          </li>
-        </ul>
-      </div>
-    </div>
-  </div>
-  <!-- /.container -->
   <picture>
     <source width="840" height="660" type="image/webp" srcset="img/product-avtohim-photo.webp">
     <source width="840" height="660" type="image/jpeg" srcset="img/product-avtohim-photo.jpg">
-    <img width="840" height="660" src="img/product-avtohim-photo.jpg"  alt="product-avtohim-photo">
-  </picture>
+    <img class="product-avtohim-photo" width="840" height="660" src="img/product-avtohim-photo.jpg"  alt="product-avtohim-photo">
+  </picture>  
+    <div class="container">
+      <div class="product-avtohim-content-wrapper">
+        <div class="product-avtohim-content">
+          <div class="seporator"></div>
+          <h2 class="section-title">Изготовление автохимии</h2>
+          <p class="product-avtohim-text">
+            Но современная методология разработки позволяет оценить значение прогресса профессионального сообщества. Есть над чем задуматься: тщательные исследования конкурентов набирают популярность среди определенных слоев населения, а значит, должны быть ассоциативно распределены по отраслям. В своём стремлении повысить качество жизни, они забывают, что дальнейшее развитие различных форм деятельности, а также свежий взгляд на привычные вещи - безусловно открывает новые горизонты для поставленных обществом задач.
+          </p>
+          <ul class="clients-list">
+            <li class="clients-list-item">
+              <svg width="30" height="30" class="client-list-icon">
+              <use href="img/sprite.svg#him"></use>
+              </svg>
+              Полное описание товаров
+            </li>
+            <li class="clients-list-item">
+              <svg width="30" height="30" class="client-list-icon">
+                <use href="img/sprite.svg#car"></use>
+              </svg>
+              Актуальные цены
+            </li>
+            <li class="clients-list-item">
+              <svg width="30" height="30" class="client-list-icon">
+                <use href="img/sprite.svg#him"></use>
+              </svg>
+              Полное описание товаров
+            </li>
+            <li class="clients-list-item">
+              <svg width="30" height="30" class="client-list-icon cosmetic-bs">
+                <use href="img/sprite.svg#him"></use>
+              </svg>
+              Актуальные цены
+            </li>
+            <li class="clients-list-item">
+              <svg width="30" height="30" class="client-list-icon">
+                <use href="img/sprite.svg#brush"></use>
+              </svg>
+              Лаки и краски
+            </li>
+            <li class="clients-list-item">
+              <svg width="30" height="30" class="client-list-icon">
+                <use href="img/sprite.svg#him"></use>
+              </svg>
+              Химические производства
+            </li>
+            <li class="clients-list-item">
+              <svg width="30" height="30" class="client-list-icon">
+                <use href="img/sprite.svg#brush"></use>
+              </svg>
+              Лаки и краски
+            </li>
+            <li class="clients-list-item">
+              <svg width="30" height="30" class="client-list-icon">
+                <use href="img/sprite.svg#him"></use>
+              </svg>
+              Химические производства
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
 </section>
 <section class="section-himlist">
   <div class="container">

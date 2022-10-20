@@ -6,7 +6,7 @@
           <use href="img/sprite.svg#logo"></use>
         </svg>
       </a>
-      <a href="tel:+79996861014" class="footer-phone">+7 (999) 686-10-14</a>
+      <a href="tel:+79996861014" class="footer-phone">+7 (499) 686-10-14</a>
       <div class="footer-info">
         <svg class="phone-icon" width="24" height="24">
           <use href="img/sprite.svg#address"></use>
