@@ -1310,7 +1310,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 2rem 2.5rem;
+    padding: 2.25rem 2.5rem;
     border-right: 1px solid rgba(235, 235, 240,0.2);
   }
   .navbar-light .mobile-menu-line {
@@ -1808,7 +1808,6 @@ body {
     gap: 1.575rem;
   }
   .notify {
-    margin-left: -2.725rem;
     margin-top: 0.7375rem;
   }
   .notify-text {
