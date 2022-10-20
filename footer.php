@@ -19,7 +19,6 @@
               class="input"
               name="username" 
               placeholder=" "
-              maxlenght="100"
               required
               >
             <label class="input-group-label" for="user-name">Имя</label>
@@ -32,7 +31,6 @@
               class="input phone-mask"
               name="userphone"
               placeholder=" "
-              maxlenght="30"
               required
               >
             <label class="input-group-label" for="user-phone">Номер телефона</label>
@@ -125,7 +123,7 @@
     <p class="modal-text">
       Оставьте заявку, наш менеджер свяжется с Вами в ближайшее время ответит на все интересующие вопросы и поможем даже в самых сложных случаях!
     </p>
-    <button href="./index.php" type="submit" class="button modal-form-button">Вернуться на главную</button>
+    <button type="submit" class="button modal-form-button">Вернуться на главную</button>
   </div>
 </div>
 

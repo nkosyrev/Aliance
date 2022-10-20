@@ -72,7 +72,7 @@
             </div>
             <!-- /.card-content -->
             <picture>
-              <source class="card-image" width="480" height="300" width="480" height="300" type="image/webp" srcset="img/avto-him.webp">
+              <source class="card-image" width="480" height="300" type="image/webp" srcset="img/avto-him.webp">
               <source class="card-image" width="480" height="300" type="image/jpeg" srcset="img/avto-him.jpg">
               <img class="card-image" width="480" height="300" src="img/avto-him.jpg"  alt="avto-him">
             </picture> 

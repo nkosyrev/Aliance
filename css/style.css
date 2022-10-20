@@ -1310,7 +1310,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 1rem 2.5rem;
+    padding: 2rem 2.5rem;
     border-right: 1px solid rgba(235, 235, 240,0.2);
   }
   .navbar-light .mobile-menu-line {
@@ -1537,10 +1537,10 @@ body {
 }
 @media (max-width:430px) {
   .close-menu .mobile-menu-line:nth-child(3) {
-    transform: rotate(-45deg) translateY(-9px);
+    transform: rotate(-45deg) translateY(-11px);
   }
   .close-menu .mobile-menu-line:nth-child(1) {
-    transform: rotate(45deg) translateY(9px);
+    transform: rotate(45deg) translateY(11px);
   }
   .header-button {
     width: 100%;

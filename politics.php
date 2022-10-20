@@ -24,5 +24,5 @@ include_once('header-page.php');?>
     </p>
   </div>
 </div>
-<hr color="#ebebf0" class="footer-seporator"> 
+<hr class="footer-seporator"> 
 <?php include_once ('./template-parts/footer-block.php');?>

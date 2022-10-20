@@ -38,7 +38,7 @@
     </div>
     <!-- /.footer-top -->
   </div>
-  <hr color="#ebebf0" class="footer-seporator"> 
+  <hr class="footer-seporator"> 
   <div class="container">
     <div class="footer-bottom">
       <div class="footer-menu-wrapper">
@@ -93,7 +93,7 @@
     <!-- /.footer-bottom -->
   </div>
   <!-- /.container -->
-  <hr color="#ebebf0" class="footer-seporator"> 
+  <hr class="footer-seporator"> 
   <div class="container">
     <div class="footer-wrapper">
       <div class="footer-legal">
