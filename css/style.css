@@ -189,7 +189,6 @@ body {
 }
 .page-header {
   padding-top: 8.7rem;
-  padding-bottom: 3.125rem;
   color: #292d33;
   position: relative;
 }
@@ -1158,6 +1157,17 @@ body {
   text-align: center;
   color: #292D33;
 }
+.section-avtohim {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 6.25rem;
+}
+img.avto-him-logo {
+  background-color:  #F0F2F5;
+}
+
+
+
 @media (hover: hover) and (pointer: fine) {
   .button-link:hover::before {
     width: 60px;

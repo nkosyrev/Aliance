@@ -1,7 +1,7 @@
 <footer class="footer">
   <div class="container">
     <div class="footer-top">
-      <a href="../" class="footer-logo">
+      <a href="../index.php" class="footer-logo">
         <svg class="footer-logo">
           <use href="img/sprite.svg#logo"></use>
         </svg>
