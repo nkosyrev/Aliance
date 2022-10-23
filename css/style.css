@@ -537,6 +537,9 @@ body {
   margin-top: -0.4375rem;
   margin-bottom: 1.875rem;
 }
+.clients {
+  margin-bottom: 11.8rem;
+}
 .clients-wrapper {
   display: flex;
   gap: 48px;
@@ -557,7 +560,7 @@ body {
   font-size: 1rem;
   line-height: 160%;
   color: #292D33;
-  padding: 10px 0px 10px 0px;
+  padding: 10px 0px 9px 0px;
 }
 .cosmetic-bs {
   display: flex;
@@ -590,8 +593,7 @@ body {
   display: flex;
 }
 .blog {
-  margin-top: 11.8125rem;
-  margin-bottom: 9.375rem;
+  margin-bottom: -2.7rem;
 }
 .blog-cards {
   margin-top: 1.3rem;
@@ -657,7 +659,7 @@ body {
   background: #F0F2F5;
 }
 .cta {
-  margin-top: 14.4rem;
+  margin-top: 16.9rem;
 }
 .section-cta {
   position: relative;
@@ -1001,12 +1003,15 @@ body {
   margin-bottom: 9.475rem;
 }
 .about-cta {
-  margin-top: 16.8rem;
+  margin-top: 16.9rem;
 }
 .section-mission {
   display: flex;
   justify-content: space-between;
   margin-bottom: 9.075rem;
+}
+.section-mission-avtohim {
+  margin-bottom: 6.075rem;
 }
 .mission-title {
   margin-bottom: 2rem;
@@ -1052,6 +1057,7 @@ body {
 }
 .section-contract-product {
   margin-top: 6.25rem;
+  margin-bottom: -3.6625rem; 
 }
 .seo-title {
   font-weight: 400;
@@ -1079,9 +1085,6 @@ body {
   align-items: center;
   text-decoration: none;
 }
-.contracts-cta {
-  margin-top: 13.3rem;
-}
 .button-link-text {
   font-style: normal;
   font-weight: 600;
@@ -1096,6 +1099,7 @@ body {
 .product-avtohim {
   min-height: 41.25rem;
   position: relative;
+  margin-top: -3.125rem;
   margin-bottom: 9.375rem;
 }
 .product-avtohim-photo {
@@ -1123,13 +1127,24 @@ body {
   line-height: 160%;
   color: #828A99;
   margin-top: -0.4375rem;
-  margin-bottom: 1.575rem;
+  margin-bottom: 1.175rem;
+}
+.product-list-item {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 160%;
+  color: #292D33;
+  padding: 10px 0px 6px 0px;
 }
 .section-himlist {
-  margin-bottom: 8.575rem;
+  margin-bottom: 8.775rem;
 }
 .himlist-text {
   max-width: 52.5rem;
+  margin-top: -0.5rem;
   margin-bottom: 2.5rem;
   font-style: normal;
   font-weight: 400;
@@ -1142,6 +1157,16 @@ body {
   padding: 0;
   padding-right: 0.9375rem;
   columns: 4 auto;
+}
+.clients-himlist-item {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 160%;
+  color: #292D33;
+  padding: 10px 0px 10px 0px;
 }
 .politics {
   padding-top: 8.7rem;
@@ -1180,6 +1205,9 @@ body {
   text-align: center;
   color: #292D33;
 }
+.blog-links {
+  margin-bottom: -2rem;
+}
 .section-avtohim {
   display: flex;
   justify-content: space-between;
@@ -1191,7 +1219,10 @@ body {
 img.avto-him-logo {
   background-color:  #F0F2F5;
 }
-
+.section-trademark {
+  margin-top: -3px;
+  margin-bottom: -42px;
+}
 
 @media (hover: hover) and (pointer: fine) {
   .button-link:hover::before {

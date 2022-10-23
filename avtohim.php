@@ -218,49 +218,49 @@ include_once('./template-parts/features-block.php.');?>
             Но современная методология разработки позволяет оценить значение прогресса профессионального сообщества. Есть над чем задуматься: тщательные исследования конкурентов набирают популярность среди определенных слоев населения, а значит, должны быть ассоциативно распределены по отраслям. В своём стремлении повысить качество жизни, они забывают, что дальнейшее развитие различных форм деятельности, а также свежий взгляд на привычные вещи - безусловно открывает новые горизонты для поставленных обществом задач.
           </p>
           <ul class="clients-list">
-            <li class="clients-list-item">
+            <li class="product-list-item">
               <svg width="30" height="30" class="client-list-icon">
               <use href="img/sprite.svg#him"></use>
               </svg>
               Полное описание товаров
             </li>
-            <li class="clients-list-item">
+            <li class="product-list-item">
               <svg width="30" height="30" class="client-list-icon">
                 <use href="img/sprite.svg#car"></use>
               </svg>
               Актуальные цены
             </li>
-            <li class="clients-list-item">
+            <li class="product-list-item">
               <svg width="30" height="30" class="client-list-icon">
                 <use href="img/sprite.svg#him"></use>
               </svg>
               Полное описание товаров
             </li>
-            <li class="clients-list-item">
+            <li class="product-list-item">
               <svg width="30" height="30" class="client-list-icon cosmetic-bs">
                 <use href="img/sprite.svg#him"></use>
               </svg>
               Актуальные цены
             </li>
-            <li class="clients-list-item">
+            <li class="product-list-item">
               <svg width="30" height="30" class="client-list-icon">
                 <use href="img/sprite.svg#brush"></use>
               </svg>
               Лаки и краски
             </li>
-            <li class="clients-list-item">
+            <li class="product-list-item">
               <svg width="30" height="30" class="client-list-icon">
                 <use href="img/sprite.svg#him"></use>
               </svg>
               Химические производства
             </li>
-            <li class="clients-list-item">
+            <li class="product-list-item">
               <svg width="30" height="30" class="client-list-icon">
                 <use href="img/sprite.svg#brush"></use>
               </svg>
               Лаки и краски
             </li>
-            <li class="clients-list-item">
+            <li class="product-list-item">
               <svg width="30" height="30" class="client-list-icon">
                 <use href="img/sprite.svg#him"></use>
               </svg>
@@ -287,115 +287,115 @@ include_once('./template-parts/features-block.php.');?>
         </svg>
         Антискотч
       </li>
-      <li class="clients-list-item">
+      <li class="clients-himlist-item">
         <svg width="16" height="26" class="client-list-icon">
           <use href="img/sprite.svg#himlist-icon"></use>
         </svg>
         Многоцелевая смазка
       </li>
-      <li class="clients-list-item">
+      <li class="clients-himlist-item">
         <svg width="16" height="26" class="client-list-icon">
           <use href="img/sprite.svg#himlist-icon"></use>
         </svg>
         Жидкий ключ
       </li>
-      <li class="clients-list-item">
+      <li class="clients-himlist-item">
         <svg width="16" height="26" class="client-list-icon">
           <use href="img/sprite.svg#himlist-icon"></use>
         </svg>
         Высокотемпературная смазка
       </li>
-      <li class="clients-list-item">
+      <li class="clients-himlist-item">
         <svg width="16" height="26" class="client-list-icon">
           <use href="img/sprite.svg#himlist-icon"></use>
         </svg>
         Универсальный очиститель <br> деталей
       </li>
-      <li class="clients-list-item">
+      <li class="clients-himlist-item">
         <svg width="16" height="26" class="client-list-icon">
           <use href="img/sprite.svg#himlist-icon"></use>
         </svg>
         Силиконовая смазка
       </li>
-      <li class="clients-list-item">
+      <li class="clients-himlist-item">
         <svg width="16" height="26" class="client-list-icon">
           <use href="img/sprite.svg#himlist-icon"></use>
         </svg>
         Цепная смазка
       </li>
-      <li class="clients-list-item">
+      <li class="clients-himlist-item">
         <svg width="16" height="26" class="client-list-icon">
           <use href="img/sprite.svg#himlist-icon"></use>
         </svg>
         Медная смазка
       </li>
-      <li class="clients-list-item">
+      <li class="clients-himlist-item">
         <svg width="16" height="26" class="client-list-icon">
           <use href="img/sprite.svg#himlist-icon"></use>
         </svg>
         Графитовая смазка
       </li>
-      <li class="clients-list-item">
+      <li class="clients-himlist-item">
         <svg width="16" height="26" class="client-list-icon">
           <use href="img/sprite.svg#himlist-icon"></use>
         </svg>
         Очиститель кондиционера <br> пенный
       </li>
-      <li class="clients-list-item">
+      <li class="clients-himlist-item">
         <svg width="16" height="26" class="client-list-icon">
           <use href="img/sprite.svg#himlist-icon"></use>
         </svg>
         Очиститель тормозных дисков
       </li>
-      <li class="clients-list-item">
+      <li class="clients-himlist-item">
         <svg width="16" height="26" class="client-list-icon">
           <use href="img/sprite.svg#himlist-icon"></use>
         </svg>
         Очиститель битумных пятен
       </li>
-      <li class="clients-list-item">
+      <li class="clients-himlist-item">
         <svg width="16" height="26" class="client-list-icon">
           <use href="img/sprite.svg#himlist-icon"></use>
         </svg>
         Очиститель кондционера
       </li>
-      <li class="clients-list-item">
+      <li class="clients-himlist-item">
         <svg width="16" height="26" class="client-list-icon">
           <use href="img/sprite.svg#himlist-icon"></use>
         </svg>
         Очиститель дросельной <br> заслонки
       </li>
-      <li class="clients-list-item">
+      <li class="clients-himlist-item">
         <svg width="16" height="26" class="client-list-icon">
           <use href="img/sprite.svg#himlist-icon"></use>
         </svg>
         Очиститель обивки 
       </li>
-      <li class="clients-list-item">
+      <li class="clients-himlist-item">
         <svg width="16" height="26" class="client-list-icon">
           <use href="img/sprite.svg#himlist-icon"></use>
         </svg>
         Тефлоновая смазка
       </li>
-      <li class="clients-list-item">
+      <li class="clients-himlist-item">
         <svg width="16" height="26" class="client-list-icon">
           <use href="img/sprite.svg#himlist-icon"></use>
         </svg>
         Очиститель двигателя
       </li>
-      <li class="clients-list-item">
+      <li class="clients-himlist-item">
         <svg width="16" height="26" class="client-list-icon">
           <use href="img/sprite.svg#himlist-icon"></use>
         </svg>
         Универсальный очиститель
       </li>
-      <li class="clients-list-item">
+      <li class="clients-himlist-item">
         <svg width="16" height="26" class="client-list-icon">
           <use href="img/sprite.svg#himlist-icon"></use>
         </svg>
         Чернитель шин 
       </li>
-      <li class="clients-list-item">
+      <li class="clients-himlist-item">
         <svg width="16" height="26" class="client-list-icon">
           <use href="img/sprite.svg#himlist-icon"></use>
         </svg>
