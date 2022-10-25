@@ -163,7 +163,7 @@
           <p class="header-text">
             Высокий уровень вовлечения представителей целевой аудитории является четким доказательством простого факта: высококачественный прототип будущего проекта напрямую зависит от анализа существующих паттернов поведения.
           </p>
-          <button class="button header-button"data-toggle="modal" data-target="#feedback-modal">Подробнее о компании</button>
+          <button class="button header-button" data-toggle="modal" data-target="#feedback-modal">Подробнее о компании</button>
         </div>
         <!-- /.header-content -->
 
@@ -245,10 +245,10 @@
           <div class="swiper-wrapper blog-cards">
 
             <a href="#" class="swiper-slide blog-card">
-              <picture class="blog-card-image">
-                <source width="705" height="400" type="image/webp" srcset="img/blog/blog-photo1.webp">
-                <source width="705" height="400" type="image/jpeg" srcset="img/blog/blog-photo1.jpg">
-                <img width="705" height="400" src="img/blog/blog-photo1.jpg"  alt="blog-photo1">
+              <picture>
+                <source class="blog-card-image" width="705" height="400" type="image/webp" srcset="img/blog/blog-photo1.webp">
+                <source class="blog-card-image" width="705" height="400" type="image/jpeg" srcset="img/blog/blog-photo1.jpg">
+                <img class="blog-card-image" src="img/blog/blog-photo1.jpg"  alt="blog-photo1">
               </picture>
               <h3 class="blog-card-title">
                 Современная методология разработки одухотворила всех причастных
@@ -258,10 +258,10 @@
               </p>
             </a>
             <a href="#" class="swiper-slide blog-card">
-              <picture class="blog-card-image">
-                <source width="705" height="400" type="image/webp" srcset="img/blog/blog-photo2.webp">
-                <source width="705" height="400" type="image/jpeg" srcset="img/blog/blog-photo2.jpg">
-                <img width="705" height="400" src="img/blog/blog-photo2.jpg"  alt="blog-photo2">
+              <picture>
+                <source class="blog-card-image" width="705" height="400" type="image/webp" srcset="img/blog/blog-photo2.webp">
+                <source class="blog-card-image" width="705" height="400" type="image/jpeg" srcset="img/blog/blog-photo2.jpg">
+                <img class="blog-card-image" src="img/blog/blog-photo2.jpg"  alt="blog-photo2">
               </picture>
               <h3 class="blog-card-title">
                 Сложно сказать, почему жизнь прекрасна
@@ -271,10 +271,10 @@
               </p>
             </a>
             <a href="#" class="swiper-slide blog-card">
-              <picture class="blog-card-image">
-                <source width="705" height="400" type="image/webp" srcset="img/blog/blog-photo1.webp">
-                <source width="705" height="400" type="image/jpeg" srcset="img/blog/blog-photo1.jpg">
-                <img width="705" height="400" src="img/blog/blog-photo1.jpg"  alt="blog-photo1">
+              <picture>
+                <source class="blog-card-image" width="705" height="400" type="image/webp" srcset="img/blog/blog-photo1.webp">
+                <source class="blog-card-image" width="705" height="400" type="image/jpeg" srcset="img/blog/blog-photo1.jpg">
+                <img class="blog-card-image" src="img/blog/blog-photo1.jpg"  alt="blog-photo1">
               </picture>
               <h3 class="blog-card-title">
                 Современная методология разработки одухотворила всех причастных
