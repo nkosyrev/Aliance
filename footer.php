@@ -110,9 +110,9 @@
 <div class="modal" id="alert-modal">
   <div class="modal-dialog">
     <picture>
-      <source width="360" height="310" type="image/webp" srcset="img/thanks.webp">
-      <source width="360" height="310" type="image/jpeg" srcset="img/thanks.jpg">
-      <img width="360" height="310" src="img/thanks.jpg"  alt="thanks">
+      <source class="modal-thanks" width="360" height="310" type="image/webp" srcset="img/thanks.webp">
+      <source class="modal-thanks" width="360" height="310" type="image/jpeg" srcset="img/thanks.jpg">
+      <img class="modal-thanks" width="360" height="310" src="img/thanks.jpg" alt="thanks">
     </picture>
     <h2 class="modal-title">Спасибо за заявку!</h2>
     <a href="" class="modal-close" data-toggle="modal" data-target="#alert-modal">
@@ -121,12 +121,11 @@
       </svg>
     </a>
     <p class="modal-text">
-      Оставьте заявку, наш менеджер свяжется с Вами в ближайшее время ответит на все интересующие вопросы и поможем даже в самых сложных случаях!
+      Наш менеджер свяжется с Вами в ближайшее время ответит на все интересующие вопросы и поможем даже в самых сложных случаях!
     </p>
-    <button type="submit" class="button modal-form-button">Вернуться на главную</button>
+    <button type="submit" onClick="location.href='./index.php'" class="button modal-form-button">Вернуться на главную</button>
   </div>
 </div>
-
     <script src="js/swiper-bundle.min.js"></script>
     <script src="js/just-validate.production.min.js"></script>
     <script src="js/main.js"></script>
