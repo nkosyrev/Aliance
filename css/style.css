@@ -519,7 +519,8 @@ body {
   width: 50%;
   top: 0;
   height: 100%;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   overflow: hidden;
   padding-right: 7.5rem;
 }
@@ -552,7 +553,8 @@ body {
 .clients-list {
   list-style: none;
   padding: 0;
-  columns: 2 auto;
+  -moz-columns: 2 auto;
+       columns: 2 auto;
 }
 .clients-list-item {
   display: flex;
@@ -588,8 +590,11 @@ body {
   align-items: center;
   justify-content: center;
   padding: 1rem;
-  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+  transition: -webkit-filter 0.2s;
   transition: filter 0.2s;
+  transition: filter 0.2s, -webkit-filter 0.2s;
 }
 .last {
   display: flex;
@@ -627,7 +632,8 @@ body {
   top: 0;
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   z-index: -2;
 }
 .blog-card-title {
@@ -812,7 +818,8 @@ body {
   font-weight: 600;
   font-size: 2rem;
   line-height: 160%;
-  text-decoration-line: underline;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
   color: #292D33;
   margin-right: 5.125rem;
 }
@@ -844,7 +851,8 @@ body {
   list-style: none;
 }
 .footer-menu-column-2 {
-  columns: 20rem auto;
+  -moz-columns: 20rem auto;
+       columns: 20rem auto;
   min-width: 45.1rem;
 }
 .footer-menu-link {
@@ -1116,7 +1124,8 @@ body {
   width: 43.7%;
   top: 0;
   height: 100%;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   overflow: hidden;
 }
 .product-avtohim-content {
@@ -1164,7 +1173,8 @@ body {
   list-style: none;
   padding: 0;
   padding-right: 0.9375rem;
-  columns: 4 auto;
+  -moz-columns: 4 auto;
+       columns: 4 auto;
 }
 .clients-himlist-item {
   display: flex;
@@ -1252,7 +1262,8 @@ img.avto-him-logo {
     color: #5C8EE6;;
   }
   .clients-logo-item:hover {
-    filter: grayscale(0%);
+    -webkit-filter: grayscale(0%);
+            filter: grayscale(0%);
   }
   .blog-link:hover {
     padding: 12px 20px;
@@ -1383,7 +1394,8 @@ img.avto-him-logo {
     justify-content: space-between;
   }
   .footer-menu-column-2 {
-    columns: 1;
+    -moz-columns: 1;
+         columns: 1;
     min-width: 5rem;
   }
   .footer-menu-wrapper:last-child {
@@ -1491,7 +1503,8 @@ img.avto-him-logo {
     font-size: 20px;
     line-height: 160%;
     color: #292d33;
-    text-decoration-line: underline;
+    -webkit-text-decoration-line: underline;
+            text-decoration-line: underline;
     border-top: 1px solid #ebebf0;
     padding-top: 2rem;
     margin-bottom: 1.5rem;
@@ -1628,7 +1641,8 @@ img.avto-him-logo {
       "text text";
   }
   .clients-list {
-    columns: 1;
+    -moz-columns: 1;
+         columns: 1;
     margin-top: 2.6rem;
   }
   .clients-logo-item {
