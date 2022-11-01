@@ -1256,10 +1256,10 @@ img.avto-him-logo {
     border-color: #5C8EE6;
   }
   .trademark-card:hover .trademark-card-logo {
-    fill: #5C8EE6;;
+    fill: #5C8EE6;
   }
   .trademark-card:hover .trademark-card-title {
-    color: #5C8EE6;;
+    color: #5C8EE6;
   }
   .clients-logo-item:hover {
     -webkit-filter: grayscale(0%);
